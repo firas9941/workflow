@@ -1,5 +1,26 @@
 # workflow
 
+## 5.0.0-beta.44
+
+### Minor Changes
+
+- [#3700](https://github.com/vercel/workflow/pull/3700) [`9b1b8c7`](https://github.com/vercel/workflow/commit/9b1b8c711104fd507327aafc8cb965738f315e29) Thanks [@VaguelySerious](https://github.com/VaguelySerious)! - Pin correlation-ID draw order to event-log order (Node.js VM engine), so two concurrent replays of the same run assign the same IDs even when one loaded a shorter event-log prefix. Set `WORKFLOW_LOG_ORDER_DRAWS=0` to opt back into arrival-order delivery resolution.
+
+### Patch Changes
+
+- Updated dependencies [[`5b5a926`](https://github.com/vercel/workflow/commit/5b5a926f8850ec5d967e090cc0500028fd53e2ef), [`9b1b8c7`](https://github.com/vercel/workflow/commit/9b1b8c711104fd507327aafc8cb965738f315e29), [`9454d51`](https://github.com/vercel/workflow/commit/9454d51db0d52d6be9bafea9c70ab6fc3a1ceba4), [`b2cac62`](https://github.com/vercel/workflow/commit/b2cac623d33685e84090abc391178219f4edc960), [`7b79ba3`](https://github.com/vercel/workflow/commit/7b79ba37cc97e858ceb8b2474e03bbc404b555a0), [`8a2648e`](https://github.com/vercel/workflow/commit/8a2648e35f3ccfdffd275bc37470dd3396981773), [`37ed049`](https://github.com/vercel/workflow/commit/37ed0493e1a46da46333ddfb42428542c39c6537)]:
+  - @workflow/core@5.0.0-beta.44
+  - @workflow/next@5.0.0-beta.44
+  - @workflow/nitro@5.0.0-beta.44
+  - @workflow/sveltekit@5.0.0-beta.44
+  - @workflow/cli@5.0.0-beta.44
+  - @workflow/typescript-plugin@5.0.0-beta.5
+  - @workflow/errors@5.0.0-beta.17
+  - @workflow/astro@5.0.0-beta.44
+  - @workflow/nest@5.0.0-beta.44
+  - @workflow/rollup@5.0.0-beta.44
+  - @workflow/nuxt@5.0.0-beta.44
+
 ## 5.0.0-beta.43
 
 ### Patch Changes

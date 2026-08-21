@@ -1,5 +1,18 @@
 # @workflow/nitro
 
+## 5.0.0-beta.44
+
+### Patch Changes
+
+- [#3454](https://github.com/vercel/workflow/pull/3454) [`8a2648e`](https://github.com/vercel/workflow/commit/8a2648e35f3ccfdffd275bc37470dd3396981773) Thanks [@josuediazflores](https://github.com/josuediazflores)! - Emit `manifest.json` in a stable order and remove a redundant compilation round per no-op rebuild in Next dev.
+
+- Updated dependencies [[`5b5a926`](https://github.com/vercel/workflow/commit/5b5a926f8850ec5d967e090cc0500028fd53e2ef), [`9b1b8c7`](https://github.com/vercel/workflow/commit/9b1b8c711104fd507327aafc8cb965738f315e29), [`9454d51`](https://github.com/vercel/workflow/commit/9454d51db0d52d6be9bafea9c70ab6fc3a1ceba4), [`b2cac62`](https://github.com/vercel/workflow/commit/b2cac623d33685e84090abc391178219f4edc960), [`7b79ba3`](https://github.com/vercel/workflow/commit/7b79ba37cc97e858ceb8b2474e03bbc404b555a0), [`8a2648e`](https://github.com/vercel/workflow/commit/8a2648e35f3ccfdffd275bc37470dd3396981773)]:
+  - @workflow/core@5.0.0-beta.44
+  - @workflow/builders@5.0.0-beta.44
+  - @workflow/web@5.0.0-beta.44
+  - @workflow/rollup@5.0.0-beta.44
+  - @workflow/vite@5.0.0-beta.44
+
 ## 5.0.0-beta.43
 
 ### Patch Changes
