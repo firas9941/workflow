@@ -1,5 +1,13 @@
 # @workflow/world
 
+## 5.0.0-beta.33
+
+### Patch Changes
+
+- [#3914](https://github.com/vercel/workflow/pull/3914) [`4a18b01`](https://github.com/vercel/workflow/commit/4a18b0133aaedaf922b903818c6b0db3adc91beb) Thanks [@shalabhc](https://github.com/shalabhc)! - Accept lazy completed and failed runs whose payload is represented by a remote reference.
+
+- [#3901](https://github.com/vercel/workflow/pull/3901) [`5c4eef0`](https://github.com/vercel/workflow/commit/5c4eef0a97ef0fc23f0ca6edf52ee891068dde15) Thanks [@NathanColosimo](https://github.com/NathanColosimo)! - Upgrade repository tooling and CI from pnpm 10 to pnpm 11.
+
 ## 5.0.0-beta.32
 
 ### Patch Changes

@@ -1,5 +1,12 @@
 # @workflow/web
 
+## 5.0.0-beta.48
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @workflow/world-local@5.0.0-beta.42
+
 ## 5.0.0-beta.47
 
 ### Patch Changes
