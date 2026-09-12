@@ -1,5 +1,11 @@
 # @workflow/core
 
+## 5.0.0-beta.52
+
+### Patch Changes
+
+- [#4070](https://github.com/vercel/workflow/pull/4070) [`d427c47`](https://github.com/vercel/workflow/commit/d427c47e897dd91583ad37b96ffdcb97199c06c8) Thanks [@torsello](https://github.com/torsello)! - Allow parentheses and square brackets in workflow names, so workflows can live in Next.js route groups (`app/(dashboard)/…`) and dynamic segments (`app/[teamId]/…`).
+
 ## 5.0.0-beta.51
 
 ### Minor Changes
