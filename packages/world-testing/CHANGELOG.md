@@ -1,5 +1,16 @@
 # @workflow/world-testing
 
+## 5.0.0-beta.57
+
+### Patch Changes
+
+- [#4348](https://github.com/vercel/workflow/pull/4348) [`f2daf40`](https://github.com/vercel/workflow/commit/f2daf4023a6a9ddaf91e42aa6409c7e09206f9c6) Thanks [@pranaygp](https://github.com/pranaygp)! - Added a `resolveData: 'skip-step-inputs'` option, which directs the World to leave out `input` from `step_created` and `step_started` events. Replay recomputes step arguments by re-running workflow code, and steps take their input from the `step_started` response or from memory, never from the replay log, so replay now reads the event log with this option and no longer downloads recorded step inputs. For workflows that pass growing state into their steps, this removes the part of the replay transfer that grows quadratically. A World that doesn't implement the option must treat it as `'all'`.
+- Updated dependencies [[`ff80d62`](https://github.com/vercel/workflow/commit/ff80d62a59c7bf0f45c4552d7b0cde82beb2ebc4), [`35ebeb4`](https://github.com/vercel/workflow/commit/35ebeb4c5afa263bb37cd870a79c608fa237510a), [`f2daf40`](https://github.com/vercel/workflow/commit/f2daf4023a6a9ddaf91e42aa6409c7e09206f9c6), [`2694663`](https://github.com/vercel/workflow/commit/2694663aef5742a012cbfed30a021d67877bb82b), [`548147a`](https://github.com/vercel/workflow/commit/548147ac691a6f6c8114b2b1282208691a7d7e8a)]:
+  - @workflow/core@5.0.0-beta.57
+  - @workflow/world@5.0.0-beta.39
+  - @workflow/cli@5.0.0-beta.57
+  - workflow@5.0.0-beta.57
+
 ## 5.0.0-beta.56
 
 ### Patch Changes
