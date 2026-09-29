@@ -1,5 +1,13 @@
 # @workflow/world-postgres
 
+## 5.0.0-beta.48
+
+### Patch Changes
+
+- [#4458](https://github.com/vercel/workflow/pull/4458) [`35bc428`](https://github.com/vercel/workflow/commit/35bc42888164a3ff8a78041bf7b218cc3516f940) Thanks [@pranaygp](https://github.com/pranaygp)! - Upgrade undici to 7.30.0, which stops a failed HTTP/2 stream from leaving a phantom in-flight request on its connection.
+- Updated dependencies [[`35bc428`](https://github.com/vercel/workflow/commit/35bc42888164a3ff8a78041bf7b218cc3516f940)]:
+  - @workflow/world-local@5.0.0-beta.49
+
 ## 5.0.0-beta.47
 
 ### Patch Changes

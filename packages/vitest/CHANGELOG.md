@@ -1,5 +1,15 @@
 # @workflow/vitest
 
+## 5.0.0-beta.58
+
+### Patch Changes
+
+- Updated dependencies [[`35bc428`](https://github.com/vercel/workflow/commit/35bc42888164a3ff8a78041bf7b218cc3516f940)]:
+  - @workflow/world-local@5.0.0-beta.49
+  - @workflow/core@5.0.0-beta.58
+  - @workflow/builders@5.0.0-beta.58
+  - @workflow/rollup@5.0.0-beta.58
+
 ## 5.0.0-beta.57
 
 ### Patch Changes

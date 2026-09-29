@@ -1,5 +1,17 @@
 # @workflow/cli
 
+## 5.0.0-beta.58
+
+### Patch Changes
+
+- [#3193](https://github.com/vercel/workflow/pull/3193) [`ad0fcc7`](https://github.com/vercel/workflow/commit/ad0fcc7e52cf27247daed86edad9f6635a23fc08) Thanks [@RihanArfan](https://github.com/RihanArfan)! - Track the standalone web UI server as a srvx `Server`, following the `@workflow/web` change.
+- Updated dependencies [[`35bc428`](https://github.com/vercel/workflow/commit/35bc42888164a3ff8a78041bf7b218cc3516f940), [`35bc428`](https://github.com/vercel/workflow/commit/35bc42888164a3ff8a78041bf7b218cc3516f940), [`ad0fcc7`](https://github.com/vercel/workflow/commit/ad0fcc7e52cf27247daed86edad9f6635a23fc08), [`2d8b8a3`](https://github.com/vercel/workflow/commit/2d8b8a33d57d9b9aa90f15d3f7b6372f01e5799e)]:
+  - @workflow/world-vercel@5.0.0-beta.53
+  - @workflow/world-local@5.0.0-beta.49
+  - @workflow/web@5.0.0-beta.58
+  - @workflow/core@5.0.0-beta.58
+  - @workflow/builders@5.0.0-beta.58
+
 ## 5.0.0-beta.57
 
 ### Patch Changes

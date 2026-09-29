@@ -1,5 +1,21 @@
 # workflow
 
+## 5.0.0-beta.58
+
+### Patch Changes
+
+- Updated dependencies [[`ad0fcc7`](https://github.com/vercel/workflow/commit/ad0fcc7e52cf27247daed86edad9f6635a23fc08)]:
+  - @workflow/cli@5.0.0-beta.58
+  - @workflow/core@5.0.0-beta.58
+  - @workflow/nitro@5.0.0-beta.58
+  - @workflow/next@5.0.0-beta.58
+  - @workflow/typescript-plugin@5.0.0-beta.5
+  - @workflow/nuxt@5.0.0-beta.58
+  - @workflow/astro@5.0.0-beta.58
+  - @workflow/nest@5.0.0-beta.58
+  - @workflow/rollup@5.0.0-beta.58
+  - @workflow/sveltekit@5.0.0-beta.58
+
 ## 5.0.0-beta.57
 
 ### Patch Changes
